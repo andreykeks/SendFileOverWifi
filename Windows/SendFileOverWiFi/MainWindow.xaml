@@ -1,0 +1,56 @@
+<Window
+    x:Class="SendFileOverWiFi.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SendFileOverWiFi"
+    Title="SendFile over WiFi">
+  <Grid x:Name="Root" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" SizeChanged="Root_SizeChanged">
+    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="32"/></Grid.RowDefinitions>
+    <Border Grid.Row="0" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+      <Grid Padding="18,10">
+        <StackPanel Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
+          <Image Source="ms-appx:///assets/logo.png" Width="34" Height="34" />
+          <TextBlock Text="SendFile over WiFi" Style="{ThemeResource SubtitleTextBlockStyle}" VerticalAlignment="Center" />
+        </StackPanel>
+        <Button x:Name="SettingsButton" HorizontalAlignment="Right" VerticalAlignment="Center" Click="Settings_Click">
+          <StackPanel Orientation="Horizontal" Spacing="7"><FontIcon Glyph="&#xE713;" /><TextBlock Text="Настройки" /></StackPanel>
+        </Button>
+      </Grid>
+    </Border>
+    <ScrollViewer x:Name="WorkScroller" Grid.Row="1" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+      <Grid x:Name="WorkLayout" Margin="20" RowSpacing="16" ColumnSpacing="16">
+        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+        <Border x:Name="ReceiveCard" Grid.Row="0" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" Padding="26" CornerRadius="24" MinWidth="0">
+          <StackPanel Spacing="18">
+            <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+              <FontIcon FontSize="38" Glyph="&#xE896;" />
+              <Button x:Name="ReceiveButton" Grid.Column="1" MinHeight="48" Click="Receive_Click">Получить</Button>
+            </Grid>
+            <TextBlock x:Name="ReceiveTitle" Text="ПОЛУЧЕНИЕ" Style="{ThemeResource TitleTextBlockStyle}" />
+            <ProgressRing x:Name="ReceiveRadar" IsActive="False" Visibility="Collapsed" Width="42" Height="42" HorizontalAlignment="Left" />
+            <TextBlock x:Name="ReceiveStatus" Text="Готово" TextWrapping="Wrap" />
+            <StackPanel Orientation="Horizontal" Spacing="12"><Button x:Name="ViewFilesButton" MinHeight="48" Visibility="Collapsed" Click="YourFiles_Click">Посмотреть</Button><Button x:Name="ClearReceiveButton" MinHeight="48" Visibility="Collapsed" Click="ClearReceive_Click">Очистить</Button><Button x:Name="ReceiveCleanupInfoButton" MinHeight="48" Visibility="Collapsed" Click="ReceiveCleanupInfo_Click">ⓘ</Button><Button x:Name="CopyReceiveErrorButton" MinHeight="48" Visibility="Collapsed" Click="CopyReceiveError_Click">Копировать ошибку</Button></StackPanel>
+          </StackPanel>
+        </Border>
+        <Border x:Name="SendCard" Grid.Row="1" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" Padding="26" CornerRadius="24" MinWidth="0">
+          <StackPanel Spacing="18">
+            <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+              <FontIcon FontSize="38" Glyph="&#xE74D;" />
+              <Button x:Name="FindButton" Grid.Column="1" MinHeight="48" IsEnabled="False" Click="Find_Click">Найти получателя</Button>
+            </Grid>
+            <TextBlock x:Name="SendTitle" Text="ОТПРАВКА" Style="{ThemeResource TitleTextBlockStyle}" />
+            <ProgressRing x:Name="SendRadar" IsActive="False" Visibility="Collapsed" Width="42" Height="42" HorizontalAlignment="Left" />
+            <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><TextBlock x:Name="SendStatus" Text="Выберите файлы для отправки" TextWrapping="Wrap" VerticalAlignment="Center"/><Button x:Name="ClearSelectedButton" Grid.Column="1" MinHeight="48" Visibility="Collapsed" Click="ClearSelected_Click"><FontIcon Glyph="&#xE74D;"/></Button></Grid>
+            <StackPanel x:Name="PickerButtons" Orientation="Horizontal" Spacing="12"><Button x:Name="FilesButton" MinHeight="48" Click="Files_Click">Выбрать файлы для отправки</Button></StackPanel>
+            <StackPanel x:Name="SelectedActions" Orientation="Horizontal" Spacing="12" Visibility="Collapsed"><Button x:Name="CopySendErrorButton" MinHeight="48" Visibility="Collapsed" Click="CopySendError_Click">Копировать ошибку</Button></StackPanel>
+            <StackPanel x:Name="PendingSendActions" Orientation="Horizontal" Spacing="12" Visibility="Collapsed"><Button x:Name="ResumeButton" MinHeight="48" Click="Resume_Click">Продолжить</Button><Button x:Name="CancelOutgoingButton" MinHeight="48" Click="CancelOutgoing_Click">Отменить</Button></StackPanel>
+          </StackPanel>
+        </Border>
+      </Grid>
+    </ScrollViewer>
+    <Border Grid.Row="2" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+      <TextBlock x:Name="VersionLabel" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="18,0"
+                 Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+    </Border>
+  </Grid>
+</Window>

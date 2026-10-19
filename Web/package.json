@@ -1,0 +1,15 @@
+{
+  "name": "sendfile-over-wifi-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "sync-localization": "node scripts/sync-localization.mjs",
+    "dev": "npm run sync-localization && ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "npm run sync-localization && ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview"
+  },
+  "devDependencies": {
+    "astro": "^5.7.0"
+  }
+}

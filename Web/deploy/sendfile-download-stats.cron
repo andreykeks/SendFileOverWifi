@@ -1,0 +1,6 @@
+# Keep raw download-log entries only until they have been converted to local,
+# pseudonymous aggregates. This file is installed as /etc/cron.d/sendfile-download-stats.
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+*/15 * * * * root /opt/sendfile-web/scripts/download-report.py --ingest >> /var/log/sendfile-download-stats.log 2>&1

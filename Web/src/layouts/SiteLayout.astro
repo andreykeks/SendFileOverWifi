@@ -1,0 +1,57 @@
+---
+import strings from "../data/ui.json";
+import "../styles/site.css";
+
+const { locale, title, description, page = "home" } = Astro.props;
+const languages = strings.languages;
+const t = (key) => strings.strings[key]?.[locale] ?? strings.strings[key]?.en ?? key;
+const localePath = (nextLocale) => page === "download" ? `/${nextLocale}/download/` : `/${nextLocale}/`;
+---
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#10131a" />
+    <link rel="icon" href="/logo.png" type="image/png" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href={`/${locale}/`} aria-label="SendFile over WiFi">
+        <img src="/logo.png" width="40" height="40" alt="" />
+        <span>SendFile <em>over WiFi</em></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href={`/${locale}/#how-it-works`}>{t("site.navigation.features")}</a>
+        <a href={`/${locale}/#privacy`}>{t("site.navigation.security")}</a>
+        <a class:list={["nav-download", { active: page === "download" }]} href={`/${locale}/download/`}>{t("site.navigation.download")}</a>
+      </nav>
+      <div class="header-actions">
+        <label class="sr-only" for="locale">Language</label>
+        <select id="locale" data-locale-select>
+          {languages.map((language) => <option value={localePath(language)} selected={language === locale}>{t(`language.${language}`)}</option>)}
+        </select>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle colour theme">◐</button>
+      </div>
+    </header>
+    <main><slot /></main>
+    <footer class="site-footer">
+      <a class="brand brand-footer" href={`/${locale}/`}><img src="/logo.png" width="30" height="30" alt="" /><span>SendFile <em>over WiFi</em></span></a>
+      <p>{t("site.footer")}</p>
+      <p>© {new Date().getFullYear()} SendFile over WiFi</p>
+    </footer>
+    <script is:inline>
+      const key = "sendfile-theme";
+      const saved = localStorage.getItem(key);
+      if (saved) document.documentElement.dataset.theme = saved;
+      document.querySelector("[data-theme-toggle]")?.addEventListener("click", () => {
+        const next = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+        document.documentElement.dataset.theme = next;
+        localStorage.setItem(key, next);
+      });
+      document.querySelector("[data-locale-select]")?.addEventListener("change", (event) => { window.location.href = event.target.value; });
+    </script>
+  </body>
+</html>

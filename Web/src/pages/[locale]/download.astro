@@ -1,0 +1,29 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import strings from "../../data/ui.json";
+
+export function getStaticPaths() { return strings.languages.map((locale) => ({ params: { locale } })); }
+const locale = Astro.params.locale;
+const t = (key) => strings.strings[key]?.[locale] ?? strings.strings[key]?.en ?? key;
+const platforms = [
+  { name: "iOS", device: "iPhone & iPad", icon: "◉" },
+  { name: "Android", device: "Android phones & tablets", icon: "◇" },
+  { name: "macOS", device: "Mac", icon: "⌘" },
+  {
+    name: "Windows", device: "Windows 10 1809+ · x64 & ARM64", icon: "⊞",
+    href: "/downloads/SendFileOverWiFi-Setup-1.0.exe",
+    body: t("site.download.windows.body"), action: t("site.download.windows.action")
+  }
+];
+---
+<SiteLayout locale={locale} page="download" title={t("site.download.title")} description={t("site.download.lede")}>
+  <section class="download-page shell">
+    <a class="back-link" href={`/${locale}/`}>← {t("site.download.back")}</a>
+    <p class="eyebrow"><span></span>SendFile over WiFi</p>
+    <h1>{t("site.download.title")}</h1>
+    <p class="lede">{t("site.download.lede")}</p>
+    <div class="downloads-grid">
+      {platforms.map((platform) => <article class="download-card"><div class="platform-icon">{platform.icon}</div><div><h2>{platform.name}</h2><p>{platform.device}</p></div><span class:list={{ "release-status": true, "release-status--available": Boolean(platform.href) }}>{platform.href ? t("site.download.available") : t("site.download.pending")}</span><p class="pending-copy">{platform.body ?? t("site.download.pending.body")}</p>{platform.href ? <a class="download-action" href={platform.href} download>{platform.action}</a> : <button disabled>{t("site.download.pending")}</button>}</article>)}
+    </div>
+  </section>
+</SiteLayout>

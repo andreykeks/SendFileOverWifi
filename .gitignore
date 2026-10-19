@@ -1,0 +1,25 @@
+SendFileOverWifi.txt
+iOS/build/
+MacOS/build/
+iOS/build/
+Android/.gradle/
+Android/build/
+Android/app/build/
+Android/local.properties
+*.pfx
+*.p12
+Windows/signing/
+Windows/artifacts/
+
+# Local files and generated caches
+.DS_Store
+codex-session.txt
+__pycache__/
+*.py[cod]
+xcuserdata/
+*.xcuserstate
+iOS/build-*/
+MacOS/build-*/
+
+# Release installers are distributed separately from source
+Web/public/downloads/*.exe

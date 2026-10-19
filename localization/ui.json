@@ -1,0 +1,1537 @@
+{
+  "version": 1,
+  "languages": [
+    "en",
+    "ru",
+    "it",
+    "es",
+    "pt",
+    "cn"
+  ],
+  "strings": {
+    "automatic": {
+      "en": "Automatic",
+      "ru": "Автоматически",
+      "it": "Automatico",
+      "es": "Automático",
+      "pt": "Automático",
+      "cn": "自动"
+    },
+    "language.en": {
+      "en": "English",
+      "ru": "Английский",
+      "it": "Inglese",
+      "es": "Inglés",
+      "pt": "Inglês",
+      "cn": "英语"
+    },
+    "language.ru": {
+      "en": "Russian",
+      "ru": "Русский",
+      "it": "Russo",
+      "es": "Ruso",
+      "pt": "Russo",
+      "cn": "俄语"
+    },
+    "language.it": {
+      "en": "Italian",
+      "ru": "Итальянский",
+      "it": "Italiano",
+      "es": "Italiano",
+      "pt": "Italiano",
+      "cn": "意大利语"
+    },
+    "language.es": {
+      "en": "Spanish",
+      "ru": "Испанский",
+      "it": "Spagnolo",
+      "es": "Español",
+      "pt": "Espanhol",
+      "cn": "西班牙语"
+    },
+    "language.pt": {
+      "en": "Portuguese",
+      "ru": "Португальский",
+      "it": "Portoghese",
+      "es": "Portugués",
+      "pt": "Português",
+      "cn": "葡萄牙语"
+    },
+    "language.cn": {
+      "en": "Chinese",
+      "ru": "Китайский",
+      "it": "Cinese",
+      "es": "Chino",
+      "pt": "Chinês",
+      "cn": "中文"
+    },
+    "ready": {
+      "en": "Ready",
+      "ru": "Готово",
+      "it": "Pronto",
+      "es": "Listo",
+      "pt": "Pronto",
+      "cn": "就绪"
+    },
+    "selectContent": {
+      "en": "Choose content",
+      "ru": "Выберите содержимое",
+      "it": "Scegli contenuto",
+      "es": "Elija contenido",
+      "pt": "Escolha o conteúdo",
+      "cn": "选择内容"
+    },
+    "waitingSender": {
+      "en": "Waiting for sender",
+      "ru": "Ожидание отправителя",
+      "it": "In attesa del mittente",
+      "es": "Esperando al remitente",
+      "pt": "Aguardando remetente",
+      "cn": "等待发送方"
+    },
+    "selectedFiles": {
+      "en": "Selected files: %d",
+      "ru": "Выбрано файлов: %d",
+      "it": "File selezionati: %d",
+      "es": "Archivos seleccionados: %d",
+      "pt": "Arquivos selecionados: %d",
+      "cn": "已选择文件：%d"
+    },
+    "searchRecipient": {
+      "en": "Searching for recipient",
+      "ru": "Поиск получателя",
+      "it": "Ricerca destinatario",
+      "es": "Buscando destinatario",
+      "pt": "Procurando destinatário",
+      "cn": "正在搜索接收方"
+    },
+    "checkingCode": {
+      "en": "Checking code",
+      "ru": "Проверка кода",
+      "it": "Verifica codice",
+      "es": "Verificando código",
+      "pt": "Verificando código",
+      "cn": "验证代码"
+    },
+    "transferring": {
+      "en": "Transferring",
+      "ru": "Передача",
+      "it": "Trasferimento",
+      "es": "Transfiriendo",
+      "pt": "Transferindo",
+      "cn": "正在传输"
+    },
+    "success": {
+      "en": "Success",
+      "ru": "Успех",
+      "it": "Operazione riuscita",
+      "es": "Correcto",
+      "pt": "Sucesso",
+      "cn": "成功"
+    },
+    "error": {
+      "en": "Error",
+      "ru": "Ошибка",
+      "it": "Errore",
+      "es": "Error",
+      "pt": "Erro",
+      "cn": "错误"
+    },
+    "pressStart": {
+      "en": "Tap to start",
+      "ru": "Нажмите, чтобы начать",
+      "it": "Tocca per iniziare",
+      "es": "Toque para iniciar",
+      "pt": "Toque para iniciar",
+      "cn": "轻点开始"
+    },
+    "usePhotoFiles": {
+      "en": "Use the Photos or Files buttons.",
+      "ru": "Используйте кнопки «Фото» или «Файлы».",
+      "it": "Usa i pulsanti Foto o File.",
+      "es": "Use los botones Fotos o Archivos.",
+      "pt": "Use os botões Fotos ou Arquivos.",
+      "cn": "请使用“照片”或“文件”按钮。"
+    },
+    "wifiAvailable": {
+      "en": "Receive is available over WiFi",
+      "ru": "Прием доступен по WiFi",
+      "it": "Ricezione disponibile via Wi‑Fi",
+      "es": "La recepción está disponible por Wi‑Fi",
+      "pt": "O recebimento está disponível por Wi‑Fi",
+      "cn": "可通过 Wi‑Fi 接收"
+    },
+    "pressSearch": {
+      "en": "Tap to find a recipient",
+      "ru": "Нажмите для поиска получателя",
+      "it": "Tocca per cercare un destinatario",
+      "es": "Toque para buscar un destinatario",
+      "pt": "Toque para procurar um destinatário",
+      "cn": "轻点以查找接收方"
+    },
+    "searchingDevices": {
+      "en": "Looking for devices on the local network",
+      "ru": "Ищем устройства в локальной сети",
+      "it": "Ricerca dispositivi nella rete locale",
+      "es": "Buscando dispositivos en la red local",
+      "pt": "Procurando dispositivos na rede local",
+      "cn": "正在本地网络中搜索设备"
+    },
+    "secureConnection": {
+      "en": "Establishing a secure connection",
+      "ru": "Устанавливаем защищённое соединение",
+      "it": "Connessione protetta in corso",
+      "es": "Estableciendo una conexión segura",
+      "pt": "Estabelecendo conexão segura",
+      "cn": "正在建立安全连接"
+    },
+    "sendingFiles": {
+      "en": "Sending files",
+      "ru": "Передаём файлы",
+      "it": "Invio dei file",
+      "es": "Enviando archivos",
+      "pt": "Enviando arquivos",
+      "cn": "正在发送文件"
+    },
+    "filesSent": {
+      "en": "Files sent",
+      "ru": "Файлы переданы",
+      "it": "File inviati",
+      "es": "Archivos enviados",
+      "pt": "Arquivos enviados",
+      "cn": "文件已发送"
+    },
+    "sendingProgress": {
+      "en": "File %d of %d: %@ / %@",
+      "ru": "Файл %d из %d: %@ / %@",
+      "it": "File %d di %d: %@ / %@",
+      "es": "Archivo %d de %d: %@ / %@",
+      "pt": "Arquivo %d de %d: %@ / %@",
+      "cn": "文件 %d / %d：%@ / %@"
+    },
+    "sendSuccess": {
+      "en": "Sent files: %d, size: %@",
+      "ru": "Отправлено файлов: %d, размер: %@",
+      "it": "File inviati: %d, dimensione: %@",
+      "es": "Archivos enviados: %d, tamaño: %@",
+      "pt": "Arquivos enviados: %d, tamanho: %@",
+      "cn": "已发送文件：%d，大小：%@"
+    },
+    "sendWarning": {
+      "en": "Sent: %d, skipped: %d, size: %@",
+      "ru": "Отправлено: %d, пропущено: %d, размер: %@",
+      "it": "Inviati: %d, ignorati: %d, dimensione: %@",
+      "es": "Enviados: %d, omitidos: %d, tamaño: %@",
+      "pt": "Enviados: %d, ignorados: %d, tamanho: %@",
+      "cn": "已发送：%d，跳过：%d，大小：%@"
+    },
+    "proRequired": {
+      "en": "Sending multiple files is available after purchase.",
+      "ru": "Передача нескольких файлов доступна после покупки.",
+      "it": "L'invio di più file è disponibile dopo l'acquisto.",
+      "es": "El envío de varios archivos está disponible tras la compra.",
+      "pt": "O envio de vários arquivos está disponível após a compra.",
+      "cn": "购买后可发送多个文件。"
+    },
+    "settings": {
+      "en": "Settings",
+      "ru": "Настройки",
+      "it": "Impostazioni",
+      "es": "Ajustes",
+      "pt": "Configurações",
+      "cn": "设置"
+    },
+    "yourFiles": {
+      "en": "Your files",
+      "ru": "Ваши файлы",
+      "it": "I tuoi file",
+      "es": "Sus archivos",
+      "pt": "Seus arquivos",
+      "cn": "您的文件"
+    },
+    "receive": {
+      "en": "RECEIVE",
+      "ru": "ПОЛУЧЕНИЕ",
+      "it": "RICEVI",
+      "es": "RECIBIR",
+      "pt": "RECEBER",
+      "cn": "接收"
+    },
+    "send": {
+      "en": "SEND",
+      "ru": "ОТПРАВКА",
+      "it": "INVIA",
+      "es": "ENVIAR",
+      "pt": "ENVIAR",
+      "cn": "发送"
+    },
+    "photos": {
+      "en": "Photos",
+      "ru": "Фото",
+      "it": "Foto",
+      "es": "Fotos",
+      "pt": "Fotos",
+      "cn": "照片"
+    },
+    "files": {
+      "en": "Files",
+      "ru": "Файлы",
+      "it": "File",
+      "es": "Archivos",
+      "pt": "Arquivos",
+      "cn": "文件"
+    },
+    "findRecipient": {
+      "en": "Find recipient",
+      "ru": "Найти получателя",
+      "it": "Trova destinatario",
+      "es": "Buscar destinatario",
+      "pt": "Encontrar destinatário",
+      "cn": "查找接收方"
+    },
+    "receiveButton": {
+      "en": "Receive",
+      "ru": "Получить",
+      "it": "Ricevi",
+      "es": "Recibir",
+      "pt": "Receber",
+      "cn": "接收"
+    },
+    "receiveAgain": {
+      "en": "Receive more",
+      "ru": "Получить еще",
+      "it": "Ricevi altro",
+      "es": "Recibir más",
+      "pt": "Receber mais",
+      "cn": "继续接收"
+    },
+    "stop": {
+      "en": "Stop",
+      "ru": "Остановить",
+      "it": "Ferma",
+      "es": "Detener",
+      "pt": "Parar",
+      "cn": "停止"
+    },
+    "cancel": {
+      "en": "Cancel",
+      "ru": "Отмена",
+      "it": "Annulla",
+      "es": "Cancelar",
+      "pt": "Cancelar",
+      "cn": "取消"
+    },
+    "done": {
+      "en": "Done",
+      "ru": "Готово",
+      "it": "Fine",
+      "es": "Listo",
+      "pt": "Concluído",
+      "cn": "完成"
+    },
+    "yes": {
+      "en": "Yes",
+      "ru": "Да",
+      "it": "Sì",
+      "es": "Sí",
+      "pt": "Sim",
+      "cn": "是"
+    },
+    "no": {
+      "en": "No",
+      "ru": "Нет",
+      "it": "No",
+      "es": "No",
+      "pt": "Não",
+      "cn": "否"
+    },
+    "accept": {
+      "en": "Accept",
+      "ru": "Принять",
+      "it": "Accetta",
+      "es": "Aceptar",
+      "pt": "Aceitar",
+      "cn": "接受"
+    },
+    "decline": {
+      "en": "Decline",
+      "ru": "Отклонить",
+      "it": "Rifiuta",
+      "es": "Rechazar",
+      "pt": "Recusar",
+      "cn": "拒绝"
+    },
+    "pairingCode": {
+      "en": "Pairing code",
+      "ru": "Код сопряжения",
+      "it": "Codice di associazione",
+      "es": "Código de emparejamiento",
+      "pt": "Código de pareamento",
+      "cn": "配对代码"
+    },
+    "compareCode": {
+      "en": "Compare the code with the sender's code",
+      "ru": "Сверьте код с кодом отправителя",
+      "it": "Confronta il codice con quello del mittente",
+      "es": "Compare el código con el del remitente",
+      "pt": "Compare o código com o do remetente",
+      "cn": "请与发送方核对代码"
+    },
+    "acceptFiles": {
+      "en": "Accept files?",
+      "ru": "Принять файлы?",
+      "it": "Accettare i file?",
+      "es": "¿Aceptar archivos?",
+      "pt": "Aceitar arquivos?",
+      "cn": "接受文件吗？"
+    },
+    "filesSize": {
+      "en": "Files: %d, size: %@",
+      "ru": "Файлов: %d, размер: %@",
+      "it": "File: %d, dimensione: %@",
+      "es": "Archivos: %d, tamaño: %@",
+      "pt": "Arquivos: %d, tamanho: %@",
+      "cn": "文件：%d，大小：%@"
+    },
+    "chooseRecipient": {
+      "en": "Choose recipient",
+      "ru": "Выберите получателя",
+      "it": "Scegli destinatario",
+      "es": "Elija destinatario",
+      "pt": "Escolha o destinatário",
+      "cn": "选择接收方"
+    },
+    "searching": {
+      "en": "Searching for devices",
+      "ru": "Поиск устройств",
+      "it": "Ricerca dispositivi",
+      "es": "Buscando dispositivos",
+      "pt": "Procurando dispositivos",
+      "cn": "正在搜索设备"
+    },
+    "chooseFiles": {
+      "en": "Choose files to send",
+      "ru": "Выбрать файлы для отправки",
+      "it": "Scegli file da inviare",
+      "es": "Elegir archivos para enviar",
+      "pt": "Escolher arquivos para enviar",
+      "cn": "选择要发送的文件"
+    },
+    "clearFileList": {
+      "en": "Clear file list",
+      "ru": "Очистить список файлов",
+      "it": "Cancella elenco file",
+      "es": "Limpiar lista de archivos",
+      "pt": "Limpar lista de arquivos",
+      "cn": "清除文件列表"
+    },
+    "transferProgress": {
+      "en": "Transfer: file %d of %d, %@ / %@ (%d%%)",
+      "ru": "Передача: файл %d из %d, %@ / %@ (%d%%)",
+      "it": "Trasferimento: file %d di %d, %@ / %@ (%d%%)",
+      "es": "Transferencia: archivo %d de %d, %@ / %@ (%d%%)",
+      "pt": "Transferência: arquivo %d de %d, %@ / %@ (%d%%)",
+      "cn": "传输：文件 %d / %d，%@ / %@（%d%%）"
+    },
+    "receiveSuccess": {
+      "en": "Success: received files: %d, size: %@",
+      "ru": "Успех: получено файлов: %d, размер: %@",
+      "it": "Riuscito: file ricevuti: %d, dimensione: %@",
+      "es": "Correcto: archivos recibidos: %d, tamaño: %@",
+      "pt": "Sucesso: arquivos recebidos: %d, tamanho: %@",
+      "cn": "成功：已接收文件：%d，大小：%@"
+    },
+    "receiveWarning": {
+      "en": "Received: %d, skipped: %d, size: %@",
+      "ru": "Получено файлов: %d, пропущено: %d, размер: %@",
+      "it": "Ricevuti: %d, ignorati: %d, dimensione: %@",
+      "es": "Recibidos: %d, omitidos: %d, tamaño: %@",
+      "pt": "Recebidos: %d, ignorados: %d, tamanho: %@",
+      "cn": "已接收：%d，跳过：%d，大小：%@"
+    },
+    "copyError": {
+      "en": "Copy error details",
+      "ru": "Копировать текст ошибки",
+      "it": "Copia dettagli errore",
+      "es": "Copiar detalles del error",
+      "pt": "Copiar detalhes do erro",
+      "cn": "复制错误详情"
+    },
+    "view": {
+      "en": "View",
+      "ru": "Посмотреть",
+      "it": "Visualizza",
+      "es": "Ver",
+      "pt": "Ver",
+      "cn": "查看"
+    },
+    "displayName": {
+      "en": "Display name",
+      "ru": "Отображаемое имя",
+      "it": "Nome visualizzato",
+      "es": "Nombre mostrado",
+      "pt": "Nome exibido",
+      "cn": "显示名称"
+    },
+    "appearance": {
+      "en": "Appearance",
+      "ru": "Оформление",
+      "it": "Aspetto",
+      "es": "Apariencia",
+      "pt": "Aparência",
+      "cn": "外观"
+    },
+    "theme": {
+      "en": "Theme",
+      "ru": "Тема оформления",
+      "it": "Tema",
+      "es": "Tema",
+      "pt": "Tema",
+      "cn": "主题"
+    },
+    "language": {
+      "en": "Language",
+      "ru": "Язык",
+      "it": "Lingua",
+      "es": "Idioma",
+      "pt": "Idioma",
+      "cn": "语言"
+    },
+    "saveDates": {
+      "en": "Preserve file dates",
+      "ru": "Сохранять дату файлов",
+      "it": "Mantieni date dei file",
+      "es": "Conservar fechas de archivos",
+      "pt": "Preservar datas dos arquivos",
+      "cn": "保留文件日期"
+    },
+    "saveAttributes": {
+      "en": "Preserve attributes and MIME data",
+      "ru": "Сохранять атрибуты и MIME-данные",
+      "it": "Mantieni attributi e dati MIME",
+      "es": "Conservar atributos y datos MIME",
+      "pt": "Preservar atributos e dados MIME",
+      "cn": "保留属性和 MIME 数据"
+    },
+    "trustedDevices": {
+      "en": "Trusted devices",
+      "ru": "Доверенные устройства",
+      "it": "Dispositivi attendibili",
+      "es": "Dispositivos de confianza",
+      "pt": "Dispositivos confiáveis",
+      "cn": "受信任设备"
+    },
+    "noTrustedDevices": {
+      "en": "No trusted devices.",
+      "ru": "Нет доверенных устройств.",
+      "it": "Nessun dispositivo attendibile.",
+      "es": "No hay dispositivos de confianza.",
+      "pt": "Não há dispositivos confiáveis.",
+      "cn": "没有受信任设备。"
+    },
+    "delete": {
+      "en": "Delete",
+      "ru": "Удалить",
+      "it": "Elimina",
+      "es": "Eliminar",
+      "pt": "Excluir",
+      "cn": "删除"
+    },
+    "systemTheme": {
+      "en": "System",
+      "ru": "Системная",
+      "it": "Sistema",
+      "es": "Sistema",
+      "pt": "Sistema",
+      "cn": "系统"
+    },
+    "darkTheme": {
+      "en": "Dark",
+      "ru": "Тёмная",
+      "it": "Scuro",
+      "es": "Oscuro",
+      "pt": "Escuro",
+      "cn": "深色"
+    },
+    "lightTheme": {
+      "en": "Light",
+      "ru": "Светлая",
+      "it": "Chiaro",
+      "es": "Claro",
+      "pt": "Claro",
+      "cn": "浅色"
+    },
+    "proTitle": {
+      "en": "Send multiple files",
+      "ru": "Отправка нескольких файлов",
+      "it": "Invia più file",
+      "es": "Enviar varios archivos",
+      "pt": "Enviar vários arquivos",
+      "cn": "发送多个文件"
+    },
+    "proDescription": {
+      "en": "Upgrade to Pro to send multiple files at once.",
+      "ru": "Перейдите на Pro, чтобы отправлять несколько файлов за одну сессию.",
+      "it": "Passa a Pro per inviare più file insieme.",
+      "es": "Actualice a Pro para enviar varios archivos a la vez.",
+      "pt": "Atualize para Pro para enviar vários arquivos de uma vez.",
+      "cn": "升级到 Pro 可一次发送多个文件。"
+    },
+    "oneTime": {
+      "en": "%@ · One-time purchase",
+      "ru": "%@ · Разовая покупка",
+      "it": "%@ · Acquisto una tantum",
+      "es": "%@ · Compra única",
+      "pt": "%@ · Compra única",
+      "cn": "%@ · 一次性购买"
+    },
+    "upgradePro": {
+      "en": "Upgrade to Pro",
+      "ru": "Перейти на Pro",
+      "it": "Passa a Pro",
+      "es": "Actualizar a Pro",
+      "pt": "Atualizar para Pro",
+      "cn": "升级到 Pro"
+    },
+    "loading": {
+      "en": "Loading…",
+      "ru": "Загрузка…",
+      "it": "Caricamento…",
+      "es": "Cargando…",
+      "pt": "Carregando…",
+      "cn": "正在加载…"
+    },
+    "restorePurchases": {
+      "en": "Restore purchases",
+      "ru": "Восстановить покупки",
+      "it": "Ripristina acquisti",
+      "es": "Restaurar compras",
+      "pt": "Restaurar compras",
+      "cn": "恢复购买"
+    },
+    "purchaseUnavailable": {
+      "en": "Purchase is not available in the App Store yet.",
+      "ru": "Покупка пока недоступна в App Store.",
+      "it": "L'acquisto non è ancora disponibile nell'App Store.",
+      "es": "La compra aún no está disponible en App Store.",
+      "pt": "A compra ainda não está disponível na App Store.",
+      "cn": "购买暂时无法在 App Store 中使用。"
+    },
+    "purchaseLoadFailed": {
+      "en": "Could not load the App Store purchase. Try again later.",
+      "ru": "Не удалось загрузить покупку App Store. Попробуйте позже.",
+      "it": "Impossibile caricare l'acquisto App Store. Riprova più tardi.",
+      "es": "No se pudo cargar la compra de App Store. Inténtelo más tarde.",
+      "pt": "Não foi possível carregar a compra da App Store. Tente mais tarde.",
+      "cn": "无法加载 App Store 购买项目，请稍后重试。"
+    },
+    "purchaseNotConfirmed": {
+      "en": "The purchase did not confirm access. Try restoring purchases.",
+      "ru": "Покупка не подтвердила доступ. Попробуйте восстановить покупки.",
+      "it": "L'acquisto non ha confermato l'accesso. Prova a ripristinare gli acquisti.",
+      "es": "La compra no confirmó el acceso. Intente restaurar las compras.",
+      "pt": "A compra não confirmou o acesso. Tente restaurar as compras.",
+      "cn": "购买未确认访问权限，请尝试恢复购买。"
+    },
+    "purchasePending": {
+      "en": "Purchase is awaiting confirmation.",
+      "ru": "Покупка ожидает подтверждения.",
+      "it": "L'acquisto è in attesa di conferma.",
+      "es": "La compra espera confirmación.",
+      "pt": "A compra está aguardando confirmação.",
+      "cn": "购买正在等待确认。"
+    },
+    "purchaseFinishFailed": {
+      "en": "Could not complete the purchase.",
+      "ru": "Не удалось завершить покупку.",
+      "it": "Impossibile completare l'acquisto.",
+      "es": "No se pudo completar la compra.",
+      "pt": "Não foi possível concluir a compra.",
+      "cn": "无法完成购买。"
+    },
+    "purchaseFailed": {
+      "en": "Could not make the App Store purchase.",
+      "ru": "Не удалось выполнить покупку App Store.",
+      "it": "Impossibile effettuare l'acquisto App Store.",
+      "es": "No se pudo realizar la compra de App Store.",
+      "pt": "Não foi possível fazer a compra na App Store.",
+      "cn": "无法完成 App Store 购买。"
+    },
+    "noPurchases": {
+      "en": "No purchases were found for this Apple ID.",
+      "ru": "Покупки для этого Apple ID не найдены.",
+      "it": "Nessun acquisto trovato per questo ID Apple.",
+      "es": "No se encontraron compras para este Apple ID.",
+      "pt": "Nenhuma compra encontrada para este ID Apple.",
+      "cn": "未找到此 Apple ID 的购买记录。"
+    },
+    "restoreFailed": {
+      "en": "Could not restore purchases.",
+      "ru": "Не удалось восстановить покупки.",
+      "it": "Impossibile ripristinare gli acquisti.",
+      "es": "No se pudieron restaurar las compras.",
+      "pt": "Não foi possível restaurar as compras.",
+      "cn": "无法恢复购买。"
+    },
+    "noReceivedFiles": {
+      "en": "No received files",
+      "ru": "Нет полученных файлов",
+      "it": "Nessun file ricevuto",
+      "es": "No hay archivos recibidos",
+      "pt": "Não há arquivos recebidos",
+      "cn": "没有已接收文件"
+    },
+    "receivedFilesHint": {
+      "en": "Completed transfers will appear here.",
+      "ru": "Завершённые передачи появятся здесь.",
+      "it": "I trasferimenti completati appariranno qui.",
+      "es": "Las transferencias completadas aparecerán aquí.",
+      "pt": "As transferências concluídas aparecerão aqui.",
+      "cn": "已完成的传输将显示在这里。"
+    },
+    "share": {
+      "en": "Share",
+      "ru": "Поделиться",
+      "it": "Condividi",
+      "es": "Compartir",
+      "pt": "Compartilhar",
+      "cn": "分享"
+    },
+    "saveToPhotos": {
+      "en": "Save to Photos",
+      "ru": "В Фото",
+      "it": "Salva in Foto",
+      "es": "Guardar en Fotos",
+      "pt": "Salvar em Fotos",
+      "cn": "存储到照片"
+    },
+    "savePhotosFailed": {
+      "en": "Could not save to Photos",
+      "ru": "Не удалось сохранить в Фото",
+      "it": "Impossibile salvare in Foto",
+      "es": "No se pudo guardar en Fotos",
+      "pt": "Não foi possível salvar em Fotos",
+      "cn": "无法存储到照片"
+    },
+    "photosPermission": {
+      "en": "Allow the app to add files to Photos in iOS Settings.",
+      "ru": "Разрешите приложению добавлять файлы в Фото в настройках iOS.",
+      "it": "Consenti all'app di aggiungere file a Foto nelle Impostazioni di iOS.",
+      "es": "Permita que la app agregue archivos a Fotos en Ajustes de iOS.",
+      "pt": "Permita que o app adicione arquivos ao Fotos nos Ajustes do iOS.",
+      "cn": "请在 iOS 设置中允许应用添加文件到照片。"
+    },
+    "systemSaveFailed": {
+      "en": "The system save did not finish.",
+      "ru": "Системное сохранение не завершилось.",
+      "it": "Il salvataggio di sistema non è stato completato.",
+      "es": "El guardado del sistema no se completó.",
+      "pt": "O salvamento do sistema não foi concluído.",
+      "cn": "系统保存未完成。"
+    },
+    "sourceUnavailable": {
+      "en": "File unavailable: %@",
+      "ru": "Файл недоступен: %@",
+      "it": "File non disponibile: %@",
+      "es": "Archivo no disponible: %@",
+      "pt": "Arquivo indisponível: %@",
+      "cn": "文件不可用：%@"
+    },
+    "transferRejected": {
+      "en": "Recipient declined the transfer (%d)",
+      "ru": "Получатель отклонил передачу (%d)",
+      "it": "Il destinatario ha rifiutato il trasferimento (%d)",
+      "es": "El destinatario rechazó la transferencia (%d)",
+      "pt": "O destinatário recusou a transferência (%d)",
+      "cn": "接收方拒绝了传输（%d）"
+    },
+    "malformedResponse": {
+      "en": "Invalid response from recipient",
+      "ru": "Некорректный ответ получателя",
+      "it": "Risposta non valida del destinatario",
+      "es": "Respuesta no válida del destinatario",
+      "pt": "Resposta inválida do destinatário",
+      "cn": "接收方响应无效"
+    },
+    "malformedRequest": {
+      "en": "Invalid HTTP request",
+      "ru": "Некорректный HTTP-запрос",
+      "it": "Richiesta HTTP non valida",
+      "es": "Solicitud HTTP no válida",
+      "pt": "Solicitação HTTP inválida",
+      "cn": "HTTP 请求无效"
+    },
+    "connectionClosed": {
+      "en": "Connection closed",
+      "ru": "Соединение закрыто",
+      "it": "Connessione chiusa",
+      "es": "Conexión cerrada",
+      "pt": "Conexão encerrada",
+      "cn": "连接已关闭"
+    },
+    "invalidContentLength": {
+      "en": "Invalid content length",
+      "ru": "Некорректная длина содержимого",
+      "it": "Lunghezza contenuto non valida",
+      "es": "Longitud de contenido no válida",
+      "pt": "Tamanho de conteúdo inválido",
+      "cn": "内容长度无效"
+    },
+    "transferBusy": {
+      "en": "Another transfer is already in progress",
+      "ru": "Другая передача уже выполняется",
+      "it": "È già in corso un altro trasferimento",
+      "es": "Ya hay otra transferencia en curso",
+      "pt": "Outra transferência já está em andamento",
+      "cn": "另一个传输正在进行中"
+    },
+    "invalidManifest": {
+      "en": "Invalid manifest",
+      "ru": "Некорректный манифест",
+      "it": "Manifest non valido",
+      "es": "Manifiesto no válido",
+      "pt": "Manifesto inválido",
+      "cn": "清单无效"
+    },
+    "insufficientSpace": {
+      "en": "Not enough free space",
+      "ru": "Недостаточно свободного места",
+      "it": "Spazio libero insufficiente",
+      "es": "No hay suficiente espacio libre",
+      "pt": "Não há espaço livre suficiente",
+      "cn": "可用空间不足"
+    },
+    "transferNotFound": {
+      "en": "Transfer not found",
+      "ru": "Передача не найдена",
+      "it": "Trasferimento non trovato",
+      "es": "Transferencia no encontrada",
+      "pt": "Transferência não encontrada",
+      "cn": "未找到传输"
+    },
+    "offsetMismatch": {
+      "en": "Chunk offset does not match",
+      "ru": "Смещение блока не совпадает",
+      "it": "L'offset del blocco non corrisponde",
+      "es": "El desplazamiento del bloque no coincide",
+      "pt": "O deslocamento do bloco não corresponde",
+      "cn": "数据块偏移不匹配"
+    },
+    "invalidChunk": {
+      "en": "Invalid chunk size",
+      "ru": "Некорректный размер блока",
+      "it": "Dimensione blocco non valida",
+      "es": "Tamaño de bloque no válido",
+      "pt": "Tamanho de bloco inválido",
+      "cn": "数据块大小无效"
+    },
+    "transferIncomplete": {
+      "en": "Transfer is not complete yet",
+      "ru": "Передача ещё не завершена",
+      "it": "Il trasferimento non è ancora completato",
+      "es": "La transferencia aún no ha terminado",
+      "pt": "A transferência ainda não foi concluída",
+      "cn": "传输尚未完成"
+    },
+    "unnamedDevice": {
+      "en": "Device %@",
+      "ru": "Устройство %@",
+      "it": "Dispositivo %@",
+      "es": "Dispositivo %@",
+      "pt": "Dispositivo %@",
+      "cn": "设备 %@"
+    },
+    "clearAll": {
+      "en": "Clear all",
+      "ru": "Очистить всё",
+      "it": "Cancella tutto",
+      "es": "Borrar todo",
+      "pt": "Limpar tudo",
+      "cn": "全部清除"
+    },
+    "deleteAllReceived": {
+      "en": "Delete all received files?",
+      "ru": "Удалить все полученные файлы?",
+      "it": "Eliminare tutti i file ricevuti?",
+      "es": "¿Eliminar todos los archivos recibidos?",
+      "pt": "Excluir todos os arquivos recebidos?",
+      "cn": "删除所有已接收文件吗？"
+    },
+    "deleteAll": {
+      "en": "Delete all",
+      "ru": "Удалить всё",
+      "it": "Elimina tutto",
+      "es": "Eliminar todo",
+      "pt": "Excluir tudo",
+      "cn": "全部删除"
+    },
+    "deleteReceivedHint": {
+      "en": "Files will be removed from the app's local storage.",
+      "ru": "Файлы будут удалены из локального хранилища приложения.",
+      "it": "I file verranno rimossi dall'archivio locale dell'app.",
+      "es": "Los archivos se eliminarán del almacenamiento local de la aplicación.",
+      "pt": "Os arquivos serão removidos do armazenamento local do app.",
+      "cn": "文件将从应用的本地存储中删除。"
+    },
+    "chooseFilesState": {
+      "en": "Choose files",
+      "ru": "Выберите файлы",
+      "it": "Scegli file",
+      "es": "Elija archivos",
+      "pt": "Escolha arquivos",
+      "cn": "选择文件"
+    },
+    "openFilePicker": {
+      "en": "The system file picker will open",
+      "ru": "Откроется системный выбор файлов",
+      "it": "Si aprirà il selettore file di sistema",
+      "es": "Se abrirá el selector de archivos del sistema",
+      "pt": "O seletor de arquivos do sistema será aberto",
+      "cn": "将打开系统文件选择器"
+    },
+    "searchAvailable": {
+      "en": "You can search for a recipient",
+      "ru": "Можно начать поиск получателя",
+      "it": "Puoi cercare un destinatario",
+      "es": "Puede buscar un destinatario",
+      "pt": "Você pode procurar um destinatário",
+      "cn": "可以搜索接收方"
+    },
+    "showFiles": {
+      "en": "Show files",
+      "ru": "Показать файлы",
+      "it": "Mostra file",
+      "es": "Mostrar archivos",
+      "pt": "Mostrar arquivos",
+      "cn": "显示文件"
+    },
+    "cancelTransfer": {
+      "en": "Cancel transfer",
+      "ru": "Отменить передачу",
+      "it": "Annulla trasferimento",
+      "es": "Cancelar transferencia",
+      "pt": "Cancelar transferência",
+      "cn": "取消传输"
+    },
+    "waitReceiver": {
+      "en": "Waiting for confirmation on the receiving device.",
+      "ru": "Ожидаем подтверждения на принимающем устройстве.",
+      "it": "In attesa di conferma sul dispositivo ricevente.",
+      "es": "Esperando confirmación en el dispositivo receptor.",
+      "pt": "Aguardando confirmação no dispositivo receptor.",
+      "cn": "正在等待接收设备确认。"
+    },
+    "downloadDirectory": {
+      "en": "Download folder",
+      "ru": "Каталог загрузки",
+      "it": "Cartella download",
+      "es": "Carpeta de descargas",
+      "pt": "Pasta de downloads",
+      "cn": "下载文件夹"
+    },
+    "choose": {
+      "en": "Choose…",
+      "ru": "Выбрать…",
+      "it": "Scegli…",
+      "es": "Elegir…",
+      "pt": "Escolher…",
+      "cn": "选择…"
+    },
+    "trustedDevicesTitle": {
+      "en": "Trusted devices",
+      "ru": "Доверенные устройства",
+      "it": "Dispositivi attendibili",
+      "es": "Dispositivos de confianza",
+      "pt": "Dispositivos confiáveis",
+      "cn": "受信任设备"
+    },
+    "trustedDevicesEmpty": {
+      "en": "The list is empty",
+      "ru": "Список пуст",
+      "it": "L'elenco è vuoto",
+      "es": "La lista está vacía",
+      "pt": "A lista está vazia",
+      "cn": "列表为空"
+    },
+    "foundDevices": {
+      "en": "Found devices",
+      "ru": "Найденные устройства",
+      "it": "Dispositivi trovati",
+      "es": "Dispositivos encontrados",
+      "pt": "Dispositivos encontrados",
+      "cn": "找到的设备"
+    },
+    "selectFiles": {
+      "en": "Select files to send",
+      "ru": "Выберите файлы для отправки",
+      "it": "Scegli file da inviare",
+      "es": "Seleccione archivos para enviar",
+      "pt": "Escolha arquivos para enviar",
+      "cn": "选择要发送的文件"
+    },
+    "clear": {
+      "en": "Clear",
+      "ru": "Очистить",
+      "it": "Cancella",
+      "es": "Limpiar",
+      "pt": "Limpar",
+      "cn": "清除"
+    },
+    "clearSelection": {
+      "en": "Clear selection",
+      "ru": "Очистить выбор",
+      "it": "Cancella selezione",
+      "es": "Limpiar selección",
+      "pt": "Limpar seleção",
+      "cn": "清除选择"
+    },
+    "resume": {
+      "en": "Resume",
+      "ru": "Продолжить",
+      "it": "Riprendi",
+      "es": "Continuar",
+      "pt": "Continuar",
+      "cn": "继续"
+    },
+    "paused": {
+      "en": "Paused",
+      "ru": "Пауза",
+      "it": "In pausa",
+      "es": "En pausa",
+      "pt": "Pausado",
+      "cn": "已暂停"
+    },
+    "connectionLost": {
+      "en": "Connection lost. You can resume the transfer",
+      "ru": "Соединение потеряно. Можно продолжить передачу",
+      "it": "Connessione persa. Puoi riprendere il trasferimento",
+      "es": "Conexión perdida. Puede continuar la transferencia",
+      "pt": "Conexão perdida. Você pode continuar a transferência",
+      "cn": "连接已断开，可以继续传输"
+    },
+    "recipientNotFound": {
+      "en": "Recipient not found",
+      "ru": "Получатель не найден",
+      "it": "Destinatario non trovato",
+      "es": "Destinatario no encontrado",
+      "pt": "Destinatário não encontrado",
+      "cn": "未找到接收方"
+    },
+    "error400": {
+      "en": "Could not prepare the transfer. Start again",
+      "ru": "Не удалось подготовить передачу. Начните заново",
+      "it": "Impossibile preparare il trasferimento. Riprova",
+      "es": "No se pudo preparar la transferencia. Inténtelo de nuevo",
+      "pt": "Não foi possível preparar a transferência. Comece novamente",
+      "cn": "无法准备传输，请重新开始"
+    },
+    "error401": {
+      "en": "Receiver session changed. Search again",
+      "ru": "Сессия получателя изменилась. Выполните поиск заново",
+      "it": "La sessione del destinatario è cambiata. Cerca di nuovo",
+      "es": "La sesión del receptor cambió. Busque de nuevo",
+      "pt": "A sessão do destinatário mudou. Pesquise novamente",
+      "cn": "接收方会话已变更，请重新搜索"
+    },
+    "error403": {
+      "en": "Recipient declined the transfer",
+      "ru": "Получатель отклонил передачу",
+      "it": "Il destinatario ha rifiutato il trasferimento",
+      "es": "El receptor rechazó la transferencia",
+      "pt": "O destinatário recusou a transferência",
+      "cn": "接收方拒绝了传输"
+    },
+    "error409": {
+      "en": "Recipient is busy with another transfer",
+      "ru": "Получатель занят другой передачей",
+      "it": "Il destinatario è occupato con un altro trasferimento",
+      "es": "El receptor está ocupado con otra transferencia",
+      "pt": "O destinatário está ocupado com outra transferência",
+      "cn": "接收方正忙于另一项传输"
+    },
+    "error410": {
+      "en": "Resume period expired. Start again",
+      "ru": "Срок докачки истёк. Начните передачу заново",
+      "it": "Il periodo di ripresa è scaduto. Ricomincia",
+      "es": "El período de reanudación caducó. Comience de nuevo",
+      "pt": "O período de retomada expirou. Comece novamente",
+      "cn": "续传期限已过，请重新开始"
+    },
+    "error422": {
+      "en": "File changed and was not sent",
+      "ru": "Файл изменился и не был передан",
+      "it": "Il file è cambiato e non è stato inviato",
+      "es": "El archivo cambió y no se envió",
+      "pt": "O arquivo foi alterado e não foi enviado",
+      "cn": "文件已更改，未发送"
+    },
+    "error507": {
+      "en": "Recipient does not have enough free space",
+      "ru": "У получателя недостаточно свободного места",
+      "it": "Il destinatario non ha spazio libero sufficiente",
+      "es": "El receptor no tiene suficiente espacio libre",
+      "pt": "O destinatário não tem espaço livre suficiente",
+      "cn": "接收方可用空间不足"
+    },
+    "transferError": {
+      "en": "Transfer error. Try again",
+      "ru": "Ошибка передачи. Попробуйте ещё раз",
+      "it": "Errore di trasferimento. Riprova",
+      "es": "Error de transferencia. Inténtelo de nuevo",
+      "pt": "Erro de transferência. Tente novamente",
+      "cn": "传输错误，请重试"
+    },
+    "receiveProgress": {
+      "en": "Receiving: file {0}/{1}\n{2:N0} of {3:N0} bytes ({4}%)",
+      "ru": "Получение: файл {0}/{1}\n{2:N0} из {3:N0} байт ({4}%)",
+      "it": "Ricezione: file {0}/{1}\n{2:N0} di {3:N0} byte ({4}%)",
+      "es": "Recibiendo: archivo {0}/{1}\n{2:N0} de {3:N0} bytes ({4}%)",
+      "pt": "Recebendo: arquivo {0}/{1}\n{2:N0} de {3:N0} bytes ({4}%)",
+      "cn": "接收：文件 {0}/{1}\n{2:N0}/{3:N0} 字节（{4}%）"
+    },
+    "successSend": {
+      "en": "Success\nSent files: {0}, {1:N0} bytes",
+      "ru": "Успех\nПередано файлов: {0}, {1:N0} байт",
+      "it": "Riuscito\nFile inviati: {0}, {1:N0} byte",
+      "es": "Correcto\nArchivos enviados: {0}, {1:N0} bytes",
+      "pt": "Sucesso\nArquivos enviados: {0}, {1:N0} bytes",
+      "cn": "成功\n已发送文件：{0}，{1:N0} 字节"
+    },
+    "successReceive": {
+      "en": "Success\nReceived files: {0}, {1:N0} bytes",
+      "ru": "Успех\nПолучено файлов: {0}, {1:N0} байт",
+      "it": "Riuscito\nFile ricevuti: {0}, {1:N0} byte",
+      "es": "Correcto\nArchivos recibidos: {0}, {1:N0} bytes",
+      "pt": "Sucesso\nArquivos recebidos: {0}, {1:N0} bytes",
+      "cn": "成功\n已接收文件：{0}，{1:N0} 字节"
+    },
+    "successWarning": {
+      "en": "Success with warnings\nCompleted: {0}/{1}, {2:N0} bytes\nSkipped: {3}",
+      "ru": "Успех с предупреждением\nПередано: {0}/{1}, {2:N0} байт\nПропущено: {3}",
+      "it": "Riuscito con avvisi\nCompletati: {0}/{1}, {2:N0} byte\nIgnorati: {3}",
+      "es": "Correcto con advertencias\nCompletados: {0}/{1}, {2:N0} bytes\nOmitidos: {3}",
+      "pt": "Sucesso com avisos\nConcluídos: {0}/{1}, {2:N0} bytes\nIgnorados: {3}",
+      "cn": "成功但有警告\n已完成：{0}/{1}，{2:N0} 字节\n已跳过：{3}"
+    },
+    "checkingSpace": {
+      "en": "Checking storage\nFiles: {0}, {1:N0} bytes",
+      "ru": "Проверка места\nФайлов: {0}, {1:N0} байт",
+      "it": "Verifica spazio\nFile: {0}, {1:N0} byte",
+      "es": "Comprobando espacio\nArchivos: {0}, {1:N0} bytes",
+      "pt": "Verificando espaço\nArquivos: {0}, {1:N0} bytes",
+      "cn": "正在检查空间\n文件：{0}，{1:N0} 字节"
+    },
+    "waitingOffer": {
+      "en": "Waiting for file offer",
+      "ru": "Ожидание предложения файлов",
+      "it": "In attesa dell'offerta di file",
+      "es": "Esperando oferta de archivos",
+      "pt": "Aguardando oferta de arquivos",
+      "cn": "等待文件请求"
+    },
+    "waitingConsent": {
+      "en": "Waiting for receiver confirmation",
+      "ru": "Ожидание согласия получателя",
+      "it": "In attesa della conferma del destinatario",
+      "es": "Esperando confirmación del receptor",
+      "pt": "Aguardando confirmação do destinatário",
+      "cn": "等待接收方确认"
+    },
+    "pairing": {
+      "en": "Pairing code: {0}",
+      "ru": "Код сопряжения: {0}",
+      "it": "Codice di associazione: {0}",
+      "es": "Código de emparejamiento: {0}",
+      "pt": "Código de pareamento: {0}",
+      "cn": "配对代码：{0}"
+    },
+    "resumeProgress": {
+      "en": "Resume: file {0}/{1}, {2:N0} of {3:N0} bytes",
+      "ru": "Докачка: файл {0}/{1}, {2:N0} из {3:N0} байт",
+      "it": "Riprendi: file {0}/{1}, {2:N0} di {3:N0} byte",
+      "es": "Reanudar: archivo {0}/{1}, {2:N0} de {3:N0} bytes",
+      "pt": "Retomar: arquivo {0}/{1}, {2:N0} de {3:N0} bytes",
+      "cn": "续传：文件 {0}/{1}，{2:N0}/{3:N0} 字节"
+    },
+    "cleanupTitle": {
+      "en": "Clear unfinished transfer",
+      "ru": "Очистка незавершённой передачи",
+      "it": "Cancella trasferimento incompleto",
+      "es": "Limpiar transferencia sin terminar",
+      "pt": "Limpar transferência inacabada",
+      "cn": "清除未完成的传输"
+    },
+    "cleanupInfo": {
+      "en": "Incomplete files are cleared automatically 24 hours after the last activity.",
+      "ru": "Неполученные и неполностью загруженные файлы будут автоматически очищены через 24 часа после последней активности.",
+      "it": "I file incompleti verranno eliminati automaticamente 24 ore dopo l'ultima attività.",
+      "es": "Los archivos incompletos se eliminarán automáticamente 24 horas después de la última actividad.",
+      "pt": "Os arquivos incompletos serão apagados automaticamente 24 horas após a última atividade.",
+      "cn": "未完成的文件将在最后活动后 24 小时自动清除。"
+    },
+    "understood": {
+      "en": "OK",
+      "ru": "Понятно",
+      "it": "OK",
+      "es": "Entendido",
+      "pt": "OK",
+      "cn": "知道了"
+    },
+    "settingsDisplayName": {
+      "en": "Display name",
+      "ru": "Отображаемое имя",
+      "it": "Nome visualizzato",
+      "es": "Nombre mostrado",
+      "pt": "Nome exibido",
+      "cn": "显示名称"
+    },
+    "deviceNameRequired": {
+      "en": "Enter device name",
+      "ru": "Введите имя устройства",
+      "it": "Inserisci il nome del dispositivo",
+      "es": "Introduzca el nombre del dispositivo",
+      "pt": "Informe o nome do dispositivo",
+      "cn": "输入设备名称"
+    },
+    "deviceNamePrompt": {
+      "en": "Enter a name visible to people on other devices before sending or receiving files.",
+      "ru": "Перед отправкой или получением файлов введите имя, видимое на других устройствах.",
+      "it": "Inserisci un nome visibile sugli altri dispositivi prima di inviare o ricevere file.",
+      "es": "Introduzca un nombre visible en otros dispositivos antes de enviar o recibir archivos.",
+      "pt": "Informe um nome visível em outros dispositivos antes de enviar ou receber arquivos.",
+      "cn": "发送或接收文件前，请输入其他设备可见的名称。"
+    },
+    "continue": {
+      "en": "Continue",
+      "ru": "Продолжить",
+      "it": "Continua",
+      "es": "Continuar",
+      "pt": "Continuar",
+      "cn": "继续"
+    },
+    "downloadFolder": {
+      "en": "Download folder",
+      "ru": "Каталог загрузки",
+      "it": "Cartella download",
+      "es": "Carpeta de descargas",
+      "pt": "Pasta de downloads",
+      "cn": "下载文件夹"
+    },
+    "save": {
+      "en": "Save",
+      "ru": "Сохранить",
+      "it": "Salva",
+      "es": "Guardar",
+      "pt": "Salvar",
+      "cn": "保存"
+    },
+    "pro": {
+      "en": "Pro",
+      "ru": "Pro",
+      "it": "Pro",
+      "es": "Pro",
+      "pt": "Pro",
+      "cn": "Pro"
+    },
+    "get": {
+      "en": "Receive",
+      "ru": "Получить",
+      "it": "Ricevi",
+      "es": "Recibir",
+      "pt": "Receber",
+      "cn": "接收"
+    },
+    "wifi": {
+      "en": "Receive available over WiFi",
+      "ru": "Прием доступен по WiFi",
+      "it": "Ricezione disponibile via Wi‑Fi",
+      "es": "Recepción disponible por Wi‑Fi",
+      "pt": "Recebimento disponível por Wi‑Fi",
+      "cn": "可通过 Wi‑Fi 接收"
+    },
+    "waiting": {
+      "en": "Waiting for sender",
+      "ru": "Ожидание отправителя",
+      "it": "In attesa del mittente",
+      "es": "Esperando al remitente",
+      "pt": "Aguardando remetente",
+      "cn": "等待发送方"
+    },
+    "code": {
+      "en": "Code",
+      "ru": "Код",
+      "it": "Codice",
+      "es": "Código",
+      "pt": "Código",
+      "cn": "代码"
+    },
+    "photo": {
+      "en": "Photos",
+      "ru": "Фото",
+      "it": "Foto",
+      "es": "Fotos",
+      "pt": "Fotos",
+      "cn": "照片"
+    },
+    "pickFiles": {
+      "en": "Files",
+      "ru": "Файлы",
+      "it": "File",
+      "es": "Archivos",
+      "pt": "Arquivos",
+      "cn": "文件"
+    },
+    "find": {
+      "en": "Find recipient",
+      "ru": "Найти получателя",
+      "it": "Trova destinatario",
+      "es": "Buscar destinatario",
+      "pt": "Encontrar destinatário",
+      "cn": "查找接收方"
+    },
+    "searchingRecipients": {
+      "en": "Searching for devices on the local network…",
+      "ru": "Ищем устройства в локальной сети…",
+      "it": "Ricerca dispositivi nella rete locale…",
+      "es": "Buscando dispositivos en la red local…",
+      "pt": "Procurando dispositivos na rede local…",
+      "cn": "正在本地网络中搜索设备…"
+    },
+    "selected": {
+      "en": "Selected files: %d",
+      "ru": "Выбрано файлов: %d",
+      "it": "File selezionati: %d",
+      "es": "Archivos seleccionados: %d",
+      "pt": "Arquivos selecionados: %d",
+      "cn": "已选文件：%d"
+    },
+    "status": {
+      "en": "Ready",
+      "ru": "Готово",
+      "it": "Pronto",
+      "es": "Listo",
+      "pt": "Pronto",
+      "cn": "就绪"
+    },
+    "notReady": {
+      "en": "Network transfer will be available after protocol setup.",
+      "ru": "Сетевой обмен будет доступен после настройки протокола.",
+      "it": "Il trasferimento di rete sarà disponibile dopo la configurazione del protocollo.",
+      "es": "La transferencia de red estará disponible tras configurar el protocolo.",
+      "pt": "A transferência pela rede estará disponível após configurar o protocolo.",
+      "cn": "网络传输将在协议配置后可用。"
+    },
+    "settingsTitle": {
+      "en": "Settings",
+      "ru": "Настройки",
+      "it": "Impostazioni",
+      "es": "Ajustes",
+      "pt": "Configurações",
+      "cn": "设置"
+    },
+    "name": {
+      "en": "Display name",
+      "ru": "Отображаемое имя",
+      "it": "Nome visualizzato",
+      "es": "Nombre visible",
+      "pt": "Nome exibido",
+      "cn": "显示名称"
+    },
+    "emptyFiles": {
+      "en": "No received files yet",
+      "ru": "Полученных файлов пока нет",
+      "it": "Nessun file ricevuto",
+      "es": "Aún no hay archivos recibidos",
+      "pt": "Ainda não há arquivos recebidos",
+      "cn": "尚无接收的文件"
+    },
+    "selectFilesToShare": {
+      "en": "Select at least one file to share",
+      "ru": "Выберите хотя бы один файл, чтобы поделиться",
+      "it": "Seleziona almeno un file da condividere",
+      "es": "Seleccione al menos un archivo para compartir",
+      "pt": "Selecione pelo menos um arquivo para compartilhar",
+      "cn": "请选择至少一个要分享的文件"
+    },
+    "proText": {
+      "en": "Upgrade to Pro to send multiple files at once.",
+      "ru": "Перейдите на Pro, чтобы отправлять несколько файлов за одну сессию.",
+      "it": "Passa a Pro per inviare più file insieme.",
+      "es": "Actualiza a Pro para enviar varios archivos a la vez.",
+      "pt": "Atualize para Pro para enviar vários arquivos de uma vez.",
+      "cn": "升级到 Pro 以一次发送多个文件。"
+    },
+    "upgrade": {
+      "en": "Upgrade to Pro",
+      "ru": "Перейти на Pro",
+      "it": "Passa a Pro",
+      "es": "Actualizar a Pro",
+      "pt": "Atualizar para Pro",
+      "cn": "升级到 Pro"
+    },
+    "restore": {
+      "en": "Restore Purchase",
+      "ru": "Восстановить покупку",
+      "it": "Ripristina acquisto",
+      "es": "Restaurar compra",
+      "pt": "Restaurar compra",
+      "cn": "恢复购买"
+    },
+    "trusted": {
+      "en": "Trusted devices",
+      "ru": "Доверенные устройства",
+      "it": "Dispositivi attendibili",
+      "es": "Dispositivos de confianza",
+      "pt": "Dispositivos confiáveis",
+      "cn": "受信任设备"
+    },
+    "saveDate": {
+      "en": "Keep file dates",
+      "ru": "Сохранять дату файлов",
+      "it": "Conserva date file",
+      "es": "Conservar fechas de archivos",
+      "pt": "Manter datas dos arquivos",
+      "cn": "保留文件日期"
+    },
+    "oneTimePrice": {
+      "en": "%s · One-time purchase", "ru": "%s · Разовая покупка", "it": "%s · Acquisto una tantum", "es": "%s · Compra única", "pt": "%s · Compra única", "cn": "%s · 一次性购买"
+    },
+    "previewUnavailable": {
+      "en": "Preview is not available for this file type.", "ru": "Предпросмотр для этого типа файла недоступен.", "it": "L'anteprima non è disponibile per questo tipo di file.", "es": "La vista previa no está disponible para este tipo de archivo.", "pt": "A pré-visualização não está disponível para este tipo de arquivo.", "cn": "此文件类型无法预览。"
+    },
+    "openWith": {
+      "en": "Open with…", "ru": "Открыть с помощью…", "it": "Apri con…", "es": "Abrir con…", "pt": "Abrir com…", "cn": "打开方式…"
+    },
+    "textReadFailed": {
+      "en": "Could not read this file.", "ru": "Не удалось прочитать этот файл.", "it": "Impossibile leggere questo file.", "es": "No se pudo leer este archivo.", "pt": "Não foi possível ler este arquivo.", "cn": "无法读取此文件。"
+    },
+    "notificationChannel": {
+      "en": "File transfer", "ru": "Передача файлов", "it": "Trasferimento file", "es": "Transferencia de archivos", "pt": "Transferência de arquivos", "cn": "文件传输"
+    },
+    "notificationActive": {
+      "en": "File transfer is active", "ru": "Выполняется передача файлов", "it": "Trasferimento file in corso", "es": "La transferencia de archivos está activa", "pt": "A transferência de arquivos está ativa", "cn": "正在传输文件"
+    },
+    "receivingFiles": {
+      "en": "Receiving files", "ru": "Получение файлов", "it": "Ricezione file", "es": "Recibiendo archivos", "pt": "Recebendo arquivos", "cn": "正在接收文件"
+    },
+    "preparingTransfer": {
+      "en": "Preparing transfer", "ru": "Подготовка передачи", "it": "Preparazione del trasferimento", "es": "Preparando transferencia", "pt": "Preparando transferência", "cn": "正在准备传输"
+    },
+    "proNotConfigured": {
+      "en": "Google Play Billing will be connected before release.", "ru": "Google Play Billing будет подключён перед выпуском.", "it": "Google Play Billing verrà collegato prima della pubblicazione.", "es": "Google Play Billing se conectará antes del lanzamiento.", "pt": "O Google Play Billing será conectado antes do lançamento.", "cn": "将在发布前接入 Google Play Billing。"
+    },
+    "copyDetails": {
+      "en": "Copy details",
+      "ru": "Копировать сведения",
+      "it": "Copia dettagli",
+      "es": "Copiar detalles",
+      "pt": "Copiar detalhes",
+      "cn": "复制详情"
+    },
+    "site.navigation.features": {
+      "en": "How it works", "ru": "Как это работает", "it": "Come funziona", "es": "Cómo funciona", "pt": "Como funciona", "cn": "工作方式"
+    },
+    "site.navigation.security": {
+      "en": "Privacy", "ru": "Конфиденциальность", "it": "Privacy", "es": "Privacidad", "pt": "Privacidade", "cn": "隐私"
+    },
+    "site.navigation.download": {
+      "en": "Download", "ru": "Скачать", "it": "Scarica", "es": "Descargar", "pt": "Baixar", "cn": "下载"
+    },
+    "site.hero.eyebrow": {
+      "en": "SendFile over WiFi", "ru": "SendFile over WiFi", "it": "SendFile over WiFi", "es": "SendFile over WiFi", "pt": "SendFile over WiFi", "cn": "SendFile over WiFi"
+    },
+    "site.hero.title": {
+      "en": "Your files. Between your devices. Over Wi-Fi.", "ru": "Ваши файлы. Между вашими устройствами. По Wi-Fi.", "it": "I tuoi file. Tra i tuoi dispositivi. Via Wi‑Fi.", "es": "Tus archivos. Entre tus dispositivos. Por Wi‑Fi.", "pt": "Seus arquivos. Entre seus dispositivos. Por Wi‑Fi.", "cn": "您的文件。在您的设备之间。通过 Wi‑Fi。"
+    },
+    "site.hero.lede": {
+      "en": "Send files directly across your local network. No cloud account, no cable and no file-size limit imposed by the app.", "ru": "Передавайте файлы напрямую в локальной сети. Без облачного аккаунта, кабеля и ограничений размера со стороны приложения.", "it": "Invia file direttamente nella rete locale. Senza account cloud, cavi o limiti di dimensione imposti dall'app.", "es": "Envía archivos directamente por tu red local. Sin cuenta en la nube, cables ni límites de tamaño impuestos por la aplicación.", "pt": "Envie arquivos diretamente pela sua rede local. Sem conta na nuvem, cabos ou limites de tamanho impostos pelo app.", "cn": "直接通过本地网络发送文件。无需云账户、数据线，也没有应用设置的文件大小限制。"
+    },
+    "site.hero.cta": {
+      "en": "Choose your download", "ru": "Выбрать загрузку", "it": "Scegli il download", "es": "Elegir descarga", "pt": "Escolher download", "cn": "选择下载"
+    },
+    "site.hero.note": {
+      "en": "Built for the devices already on your Wi-Fi.", "ru": "Для устройств, которые уже подключены к вашему Wi‑Fi.", "it": "Per i dispositivi già connessi al tuo Wi‑Fi.", "es": "Para los dispositivos que ya están en tu Wi‑Fi.", "pt": "Para os dispositivos que já estão no seu Wi‑Fi.", "cn": "为已连接到您 Wi‑Fi 的设备而打造。"
+    },
+    "site.features.title": {
+      "en": "Simple by design", "ru": "Просто по замыслу", "it": "Semplice per scelta", "es": "Sencillo por diseño", "pt": "Simples por design", "cn": "简洁而生"
+    },
+    "site.features.local.title": {
+      "en": "On your local network", "ru": "В вашей локальной сети", "it": "Nella tua rete locale", "es": "En tu red local", "pt": "Na sua rede local", "cn": "在您的本地网络中"
+    },
+    "site.features.local.body": {
+      "en": "Devices find each other over Wi-Fi and transfer directly. Files do not need a cloud relay.", "ru": "Устройства находят друг друга по Wi‑Fi и передают данные напрямую. Облачный посредник не нужен.", "it": "I dispositivi si trovano via Wi‑Fi e trasferiscono direttamente. Non serve un relay cloud.", "es": "Los dispositivos se encuentran por Wi‑Fi y transfieren directamente. No necesitan un intermediario en la nube.", "pt": "Os dispositivos se encontram por Wi‑Fi e transferem diretamente. Não é necessário um intermediário na nuvem.", "cn": "设备通过 Wi‑Fi 互相发现并直接传输，无需云端中转。"
+    },
+    "site.features.files.title": {
+      "en": "Made for real files", "ru": "Для настоящих файлов", "it": "Per file reali", "es": "Para archivos reales", "pt": "Para arquivos de verdade", "cn": "适用于真实文件"
+    },
+    "site.features.files.body": {
+      "en": "Send single files or folders while keeping their structure. Interrupted transfers can continue later.", "ru": "Отправляйте отдельные файлы или папки, сохраняя их структуру. Прерванную передачу можно продолжить позже.", "it": "Invia singoli file o cartelle mantenendo la struttura. I trasferimenti interrotti possono riprendere in seguito.", "es": "Envía archivos o carpetas conservando su estructura. Las transferencias interrumpidas pueden continuar después.", "pt": "Envie arquivos ou pastas preservando a estrutura. Transferências interrompidas podem continuar depois.", "cn": "发送单个文件或文件夹并保留结构。中断的传输可稍后继续。"
+    },
+    "site.features.platforms.title": {
+      "en": "Across your devices", "ru": "Между вашими устройствами", "it": "Tra i tuoi dispositivi", "es": "Entre tus dispositivos", "pt": "Entre seus dispositivos", "cn": "跨设备使用"
+    },
+    "site.features.platforms.body": {
+      "en": "The same transfer protocol connects the supported mobile and desktop apps.", "ru": "Единый протокол передачи соединяет поддерживаемые мобильные и настольные приложения.", "it": "Lo stesso protocollo collega le app mobili e desktop supportate.", "es": "El mismo protocolo conecta las aplicaciones móviles y de escritorio compatibles.", "pt": "O mesmo protocolo conecta os apps móveis e de desktop compatíveis.", "cn": "统一的传输协议连接受支持的移动端和桌面端应用。"
+    },
+    "site.steps.title": {
+      "en": "Four clear steps", "ru": "Четыре понятных шага", "it": "Quattro semplici passaggi", "es": "Cuatro pasos claros", "pt": "Quatro passos claros", "cn": "四个清晰步骤"
+    },
+    "site.steps.one": {
+      "en": "Choose files", "ru": "Выберите файлы", "it": "Scegli i file", "es": "Elige archivos", "pt": "Escolha arquivos", "cn": "选择文件"
+    },
+    "site.steps.one.body": {
+      "en": "Pick the files or media you want to send.", "ru": "Выберите файлы или медиа для отправки.", "it": "Scegli i file o i media da inviare.", "es": "Elige los archivos o medios que quieres enviar.", "pt": "Escolha os arquivos ou mídias que deseja enviar.", "cn": "选择要发送的文件或媒体。"
+    },
+    "site.steps.two": {
+      "en": "Find a device", "ru": "Найдите устройство", "it": "Trova un dispositivo", "es": "Busca un dispositivo", "pt": "Encontre um dispositivo", "cn": "查找设备"
+    },
+    "site.steps.two.body": {
+      "en": "The receiving device becomes visible on the same Wi-Fi network.", "ru": "Принимающее устройство становится видно в той же сети Wi‑Fi.", "it": "Il dispositivo ricevente diventa visibile sulla stessa rete Wi‑Fi.", "es": "El dispositivo receptor aparece en la misma red Wi‑Fi.", "pt": "O dispositivo receptor fica visível na mesma rede Wi‑Fi.", "cn": "接收设备会出现在同一 Wi‑Fi 网络中。"
+    },
+    "site.steps.three": {
+      "en": "Check the code", "ru": "Сверьте код", "it": "Verifica il codice", "es": "Comprueba el código", "pt": "Verifique o código", "cn": "核对代码"
+    },
+    "site.steps.three.body": {
+      "en": "For a new device, compare the short code shown on both screens.", "ru": "Для нового устройства сравните короткий код на обоих экранах.", "it": "Per un nuovo dispositivo, confronta il codice breve su entrambi gli schermi.", "es": "Para un dispositivo nuevo, compara el código corto de ambas pantallas.", "pt": "Para um novo dispositivo, compare o código curto nas duas telas.", "cn": "对于新设备，请比较两个屏幕上显示的短代码。"
+    },
+    "site.steps.four": {
+      "en": "Transfer directly", "ru": "Передавайте напрямую", "it": "Trasferisci direttamente", "es": "Transfiere directamente", "pt": "Transfira diretamente", "cn": "直接传输"
+    },
+    "site.steps.four.body": {
+      "en": "The receiver accepts the offer and the transfer begins over the local network.", "ru": "Получатель принимает предложение, и передача начинается в локальной сети.", "it": "Il destinatario accetta e il trasferimento inizia sulla rete locale.", "es": "El receptor acepta la propuesta y la transferencia comienza en la red local.", "pt": "O destinatário aceita a oferta e a transferência começa na rede local.", "cn": "接收方接受后，传输将在本地网络中开始。"
+    },
+    "site.security.title": {
+      "en": "Private by default", "ru": "Конфиденциальность по умолчанию", "it": "Privacy per impostazione predefinita", "es": "Privado de forma predeterminada", "pt": "Privacidade por padrão", "cn": "默认保护隐私"
+    },
+    "site.security.body": {
+      "en": "Transfers use TLS 1.3. A four-character confirmation code helps you verify a new device before it receives your files. The site itself has no analytics or tracking.", "ru": "Передачи используют TLS 1.3. Четырёхсимвольный код подтверждения помогает проверить новое устройство до получения файлов. На самом сайте нет аналитики и трекеров.", "it": "I trasferimenti usano TLS 1.3. Un codice di conferma di quattro caratteri aiuta a verificare un nuovo dispositivo prima che riceva i file. Il sito non usa analisi né tracciamento.", "es": "Las transferencias usan TLS 1.3. Un código de confirmación de cuatro caracteres ayuda a verificar un dispositivo nuevo antes de que reciba archivos. El sitio no usa analítica ni rastreo.", "pt": "As transferências usam TLS 1.3. Um código de confirmação de quatro caracteres ajuda a verificar um novo dispositivo antes que ele receba seus arquivos. O site não usa análises nem rastreamento.", "cn": "传输使用 TLS 1.3。四字符确认代码可在新设备接收文件前帮助您验证设备。本站不使用分析或跟踪。"
+    },
+    "site.download.title": {
+      "en": "Download SendFile over WiFi", "ru": "Скачать SendFile over WiFi", "it": "Scarica SendFile over WiFi", "es": "Descargar SendFile over WiFi", "pt": "Baixar SendFile over WiFi", "cn": "下载 SendFile over WiFi"
+    },
+    "site.download.lede": {
+      "en": "Official downloads will appear here when each distribution is ready.", "ru": "Официальные загрузки появятся здесь, когда дистрибутивы будут готовы.", "it": "I download ufficiali appariranno qui quando ogni distribuzione sarà pronta.", "es": "Las descargas oficiales aparecerán aquí cuando cada distribución esté lista.", "pt": "Os downloads oficiais aparecerão aqui quando cada distribuição estiver pronta.", "cn": "每个发行版准备就绪后，官方下载安装包将显示在这里。"
+    },
+    "site.download.pending": {
+      "en": "Preparing release", "ru": "Готовим выпуск", "it": "Pubblicazione in preparazione", "es": "Preparando lanzamiento", "pt": "Preparando lançamento", "cn": "正在准备发布"
+    },
+    "site.download.available": {
+      "en": "Available now", "ru": "Доступно", "it": "Disponibile", "es": "Disponible", "pt": "Disponível", "cn": "现已提供"
+    },
+    "site.download.windows.body": {
+      "en": "Version 1.0. One installer automatically selects the native build for 64-bit Intel/AMD (x64) or ARM64 Windows.", "ru": "Версия 1.0. Единый установщик автоматически выберет нативную сборку для 64-битной Windows Intel/AMD (x64) или ARM64.", "it": "Versione 1.0. Un unico programma di installazione seleziona automaticamente la build nativa per Windows Intel/AMD a 64 bit (x64) o ARM64.", "es": "Versión 1.0. Un único instalador selecciona automáticamente la compilación nativa para Windows Intel/AMD de 64 bits (x64) o ARM64.", "pt": "Versão 1.0. Um único instalador seleciona automaticamente a compilação nativa para Windows Intel/AMD de 64 bits (x64) ou ARM64.", "cn": "版本 1.0。一个安装程序会自动为 64 位 Intel/AMD（x64）或 ARM64 Windows 选择原生版本。"
+    },
+    "site.download.windows.action": {
+      "en": "Download for Windows", "ru": "Скачать для Windows", "it": "Scarica per Windows", "es": "Descargar para Windows", "pt": "Baixar para Windows", "cn": "下载 Windows 版"
+    },
+    "site.download.pending.body": {
+      "en": "There is no installer or store link published for this platform yet.", "ru": "Установщик или ссылка на магазин для этой платформы пока не опубликованы.", "it": "Non è ancora pubblicato alcun programma di installazione o link allo store per questa piattaforma.", "es": "Aún no se ha publicado un instalador ni enlace a la tienda para esta plataforma.", "pt": "Ainda não há instalador ou link da loja publicado para esta plataforma.", "cn": "该平台尚未发布安装包或商店链接。"
+    },
+    "site.download.back": {
+      "en": "Back to overview", "ru": "К описанию", "it": "Torna alla panoramica", "es": "Volver a la descripción", "pt": "Voltar à visão geral", "cn": "返回概览"
+    },
+    "site.footer": {
+      "en": "Direct local file transfer. No cloud relay.", "ru": "Прямая передача файлов в локальной сети. Без облачного посредника.", "it": "Trasferimento locale diretto. Nessun relay cloud.", "es": "Transferencia local directa. Sin intermediario en la nube.", "pt": "Transferência local direta. Sem intermediário na nuvem.", "cn": "直接本地文件传输，无需云端中转。"
+    }
+  }
+}

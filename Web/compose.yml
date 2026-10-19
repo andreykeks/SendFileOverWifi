@@ -1,0 +1,14 @@
+services:
+  sendfile-web:
+    build: .
+    container_name: sendfile-web
+    restart: unless-stopped
+    volumes:
+      - ./logs:/var/log/nginx
+    networks:
+      - edge
+
+networks:
+  edge:
+    name: kraabhost_default
+    external: true

@@ -1,0 +1,44 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import strings from "../../data/ui.json";
+
+export function getStaticPaths() { return strings.languages.map((locale) => ({ params: { locale } })); }
+const locale = Astro.params.locale;
+const t = (key) => strings.strings[key]?.[locale] ?? strings.strings[key]?.en ?? key;
+const features = ["local", "files", "platforms"];
+const steps = ["one", "two", "three", "four"];
+---
+<SiteLayout locale={locale} title={`SendFile over WiFi — ${t("site.hero.title")}`} description={t("site.hero.lede")}>
+  <section class="hero shell">
+    <div class="hero-copy">
+      <p class="eyebrow"><span></span>{t("site.hero.eyebrow")}</p>
+      <h1>{t("site.hero.title")}</h1>
+      <p class="lede">{t("site.hero.lede")}</p>
+      <a class="button button-primary" href={`/${locale}/download/`}>{t("site.hero.cta")} <span>→</span></a>
+      <p class="hero-note">◉ {t("site.hero.note")}</p>
+    </div>
+    <div class="transfer-demo" aria-label="Illustration of a direct file transfer">
+      <div class="device-card source"><span class="device-dot"></span><b>MacBook</b><small>Documents</small><div class="file-row"><i></i><span>project.zip</span><em>•••</em></div><div class="file-row"><i></i><span>Photos</span><em>•••</em></div></div>
+      <div class="transfer-line"><span class="signal s1"></span><span class="signal s2"></span><span class="signal s3"></span><div class="transfer-token">A7KQ</div><small>TLS 1.3</small></div>
+      <div class="device-card receiver"><span class="device-dot"></span><b>Phone</b><small>Receiving files</small><div class="progress"><span></span></div><strong>68%</strong><p>2 of 3 files</p></div>
+    </div>
+  </section>
+
+  <section class="section shell features" id="features">
+    <div class="section-heading"><p class="eyebrow"><span></span>01</p><h2>{t("site.features.title")}</h2></div>
+    <div class="feature-grid">
+      {features.map((feature, index) => <article class="feature-card"><span class="feature-number">0{index + 1}</span><div class={`feature-icon icon-${feature}`}></div><h3>{t(`site.features.${feature}.title`)}</h3><p>{t(`site.features.${feature}.body`)}</p></article>)}
+    </div>
+  </section>
+
+  <section class="section shell how" id="how-it-works">
+    <div class="section-heading"><p class="eyebrow"><span></span>02</p><h2>{t("site.steps.title")}</h2></div>
+    <ol class="steps">
+      {steps.map((step, index) => <li><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{t(`site.steps.${step}`)}</h3><p>{t(`site.steps.${step}.body`)}</p></div></li>)}
+    </ol>
+  </section>
+
+  <section class="privacy" id="privacy"><div class="shell privacy-inner"><div><p class="eyebrow"><span></span>03</p><h2>{t("site.security.title")}</h2></div><p>{t("site.security.body")}</p><div class="privacy-badge">⌁<br /><small>TLS 1.3</small></div></div></section>
+
+  <section class="download-cta shell"><div><p class="eyebrow"><span></span>04</p><h2>{t("site.download.title")}</h2></div><a class="button button-light" href={`/${locale}/download/`}>{t("site.navigation.download")} <span>→</span></a></section>
+</SiteLayout>
